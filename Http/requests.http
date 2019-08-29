@@ -1,0 +1,28 @@
+#Get http://localhost:5000/api/json/
+
+#Get http://localhost:5000/api/json/2
+
+#Get http://localhost:5000/api/json/54
+
+#Get http://localhost:5000/api/json/101
+
+# post http://localhost:5000/api/json
+# content-type: application/json
+
+# {
+#     "userid" : 1,
+#     "title" : "chur",
+#     "body" : "boss"
+# }
+
+# PUT http://localhost:5000/api/json/101
+# Content-Type: application/json
+
+# {
+#     "id" : 101,
+#     "userId" : 1,
+#     "title" : "hahahahaha",
+#     "body" : "Uncle Bully"
+# }
+
+DELETE  http://localhost:5000/api/json/99
